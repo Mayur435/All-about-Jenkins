@@ -20,7 +20,7 @@ pipeline {
       }
     }
     
-    }
+    
     stage('Build and Push Docker Image') {
       environment {
         DOCKER_IMAGE = "mayur435/ultimate-cicd:${BUILD_NUMBER}"
